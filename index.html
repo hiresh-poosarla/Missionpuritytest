@@ -120,7 +120,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         $("#about").hide();
         $('#submit').click(function() {
             var check_list = document.querySelectorAll('input[type="checkbox"]:checked');
-            var check_total = (100 - check_list.length) * 2;
+            var check_total = (50 - check_list.length) * 2;
             $('#score').html("score: " + check_total);
             $("#show").show();
             $("#hide").hide();
